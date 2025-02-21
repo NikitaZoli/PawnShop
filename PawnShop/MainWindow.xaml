@@ -1,0 +1,107 @@
+﻿<Window x:Class="PawnShop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:views="clr-namespace:PawnShop.Views"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        WindowStartupLocation="CenterScreen"
+        Title="Приложение ломбард" 
+        Height="700" 
+        Width="1200"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="14"
+        FontFamily="{materialDesign:MaterialDesignFont}">
+
+    <Window.Resources>
+        <Style TargetType="TabItem" BasedOn="{StaticResource MaterialDesignNavigationRailTabItem}">
+            <Setter Property="Height" Value="80"/>
+            <Setter Property="MinWidth" Value="100"/>
+            <Setter Property="Margin" Value="2"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+    </Window.Resources>
+
+    <materialDesign:Card Margin="16" UniformCornerRadius="15">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <materialDesign:ColorZone
+                Mode="PrimaryMid"
+                Padding="16"
+                CornerRadius="15"
+                materialDesign:ShadowAssist.ShadowDepth="Depth2"
+                Margin="10">
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon 
+                        Kind="Store" 
+                        Height="30" 
+                        Width="30" 
+                        VerticalAlignment="Center"/>
+                    <TextBlock 
+                        Margin="16,0,0,0" 
+                        VerticalAlignment="Center" 
+                        FontSize="22"
+                        Text="Система управления ломбардом"/>
+                </StackPanel>
+            </materialDesign:ColorZone>
+
+            <TabControl Grid.Row="1" 
+                       materialDesign:ShadowAssist.ShadowDepth="Depth0"
+                       TabStripPlacement="Left"
+                       Style="{StaticResource MaterialDesignNavigationRailTabControl}"
+                       Margin="5">
+                <TabControl.Resources>
+                    <Style TargetType="TabPanel">
+                        <Setter Property="Background" Value="{DynamicResource MaterialDesignPaper}"/>
+                        <Setter Property="Margin" Value="0"/>
+                    </Style>
+                </TabControl.Resources>
+
+                <TabItem Width="150">
+                    <TabItem.Header>
+                        <StackPanel Width="140">
+                            <materialDesign:PackIcon Kind="AccountMultiple" Width="24" Height="24" HorizontalAlignment="Center"/>
+                            <TextBlock Text="Клиенты" HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center"/>
+                        </StackPanel>
+                    </TabItem.Header>
+                    <views:ClientsPage Margin="10,0,0,0"/>
+                </TabItem>
+
+                <TabItem Width="150">
+                    <TabItem.Header>
+                        <StackPanel Width="140">
+                            <materialDesign:PackIcon Kind="Safe" Width="24" Height="24" HorizontalAlignment="Center"/>
+                            <TextBlock Text="Залоги" HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center"/>
+                        </StackPanel>
+                    </TabItem.Header>
+                    <views:PledgesPage/>
+                </TabItem>
+
+                <TabItem Width="150">
+                    <TabItem.Header>
+                        <StackPanel Width="140">
+                            <materialDesign:PackIcon Kind="BadgeAccountHorizontal" Width="24" Height="24" HorizontalAlignment="Center"/>
+                            <TextBlock Text="Сотрудники" HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center"/>
+                        </StackPanel>
+                    </TabItem.Header>
+                    <views:EmployeesPage/>
+                </TabItem>
+
+                <TabItem Width="150">
+                    <TabItem.Header>
+                        <StackPanel Width="140">
+                            <materialDesign:PackIcon Kind="CashMultiple" Width="24" Height="24" HorizontalAlignment="Center"/>
+                            <TextBlock Text="Транзакции" HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center"/>
+                        </StackPanel>
+                    </TabItem.Header>
+                    <views:TransactionsPage/>
+                </TabItem>
+            </TabControl>
+        </Grid>
+    </materialDesign:Card>
+</Window>

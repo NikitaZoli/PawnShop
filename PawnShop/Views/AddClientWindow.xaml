@@ -1,0 +1,66 @@
+﻿<Window x:Class="PawnShop.Views.AddClientWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PawnShop.Views"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Добавление клиента" 
+        Height="590" 
+        Width="400"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        FontFamily="{materialDesign:MaterialDesignFont}">
+
+    <materialDesign:Card Margin="16" Padding="16">
+        <StackPanel>
+            <TextBlock Text="Добавление нового клиента"
+                       Style="{StaticResource MaterialDesignHeadline6TextBlock}"
+                       Margin="0,0,0,24"
+                       HorizontalAlignment="Center"/>
+
+            <materialDesign:Card Padding="16" Margin="0,0,0,16">
+                <StackPanel>
+                    <TextBox
+                        x:Name="FullNameTextBox"
+                        Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                        materialDesign:HintAssist.Hint="ФИО"
+                        Margin="0,8,0,8"/>
+
+                    <TextBox
+                        x:Name="PassportNumberTextBox"
+                        Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                        materialDesign:HintAssist.Hint="Номер паспорта"
+                        Margin="0,8,0,8"/>
+
+                    <TextBox
+                        x:Name="PhoneNumberTextBox"
+                        Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                        materialDesign:HintAssist.Hint="Номер телефона"
+                        Margin="0,8,0,8"/>
+
+                    <TextBox
+                        x:Name="AddressTextBox"
+                        Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                        materialDesign:HintAssist.Hint="Адрес"
+                        Margin="0,8,0,8"
+                        AcceptsReturn="True"
+                        TextWrapping="Wrap"
+                        VerticalScrollBarVisibility="Auto"
+                        Height="80"/>
+                </StackPanel>
+            </materialDesign:Card>
+
+            <Button
+                Content="ДОБАВИТЬ КЛИЕНТА"
+                Style="{StaticResource MaterialDesignRaisedButton}"
+                Click="AddClientButton_Click"
+                Height="40"
+                materialDesign:ButtonAssist.CornerRadius="20"/>
+        </StackPanel>
+    </materialDesign:Card>
+</Window>

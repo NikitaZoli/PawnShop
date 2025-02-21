@@ -1,0 +1,203 @@
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\views\ClientsPage.baml
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\views\PledgesPage.baml
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\views\AddClientWindow.g.cs
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\views\AddPledgeWindow.g.cs
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\views\ClientsPage.g.cs
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\views\PledgesPage.g.cs
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\App.g.cs
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop_MarkupCompile.cache
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop_MarkupCompile.lref
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\bin\Debug\PawnShop.exe.config
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\bin\Debug\PawnShop.exe
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\bin\Debug\PawnShop.pdb
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\Views\AddClientWindow.baml
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\Views\AddPledgeWindow.baml
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop.g.resources
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop.Properties.Resources.resources
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop.csproj.CopyComplete
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop.exe
+C:\Users\User\Desktop\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\PawnShop.exe.config
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\PawnShop.exe
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\PawnShop.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\EntityFramework.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\EntityFramework.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\Views\ClientsPage.baml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\Views\PledgesPage.baml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\MainWindow.g.cs
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\Views\AddClientWindow.g.cs
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\Views\AddPledgeWindow.g.cs
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\Views\ClientsPage.g.cs
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\Views\PledgesPage.g.cs
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\App.g.cs
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop_MarkupCompile.cache
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop_MarkupCompile.lref
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\MainWindow.baml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\Views\AddClientWindow.baml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\Views\AddPledgeWindow.baml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop.g.resources
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop.Properties.Resources.resources
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop.exe
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\Views\EmployeesPage.g.cs
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\Views\TransactionsPage.g.cs
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\Views\AddEmployeeWindow.baml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\Views\AddEmployeeWindow.g.cs
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\Views\AddTransactionWindow.baml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\Views\AddTransactionWindow.g.cs
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\Views\EmployeesPage.baml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\Views\TransactionsPage.baml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop.csproj.Up2Date
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\ControlzEx.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\MahApps.Metro.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\MaterialDesignColors.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\MaterialDesignThemes.MahApps.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\ControlzEx.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\ControlzEx.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\MahApps.Metro.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\MahApps.Metro.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\MaterialDesignColors.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\MaterialDesignThemes.MahApps.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\App.baml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.Core.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.Data.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.DataService.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.Diagnostics.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.EntitlementService.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.Exception.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.GlobalTaxService.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.OAuth2PlatformClient.Diagnostics.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.OAuth2PlatformClient.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.QueryFilter.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.ReportService.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.Retry.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.Security.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.Utility.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.WebHooksService.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\IppDotNetSdkForQuickBooksApiV3.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Configuration.Xml.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Serilog.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Serilog.Enrichers.Environment.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Serilog.Enrichers.Thread.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Serilog.Extensions.Logging.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Serilog.Settings.Configuration.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Serilog.Sinks.Console.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Serilog.Sinks.Debug.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Serilog.Sinks.File.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Serilog.Sinks.Trace.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\SerilogTraceListener.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\System.Buffers.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\System.Memory.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\System.Security.AccessControl.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\System.Security.Permissions.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.Core.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.Core.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.Data.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.Data.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.DataService.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.DataService.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.Diagnostics.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.Diagnostics.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.EntitlementService.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.EntitlementService.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.Exception.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.Exception.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.GlobalTaxService.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.GlobalTaxService.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.OAuth2PlatformClient.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.OAuth2PlatformClient.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.OAuth2PlatformClient.Diagnostics.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.OAuth2PlatformClient.Diagnostics.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.QueryFilter.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.QueryFilter.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.ReportService.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.ReportService.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.Retry.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.Retry.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.Security.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.Security.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.Utility.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.Utility.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.WebHooksService.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Intuit.Ipp.WebHooksService.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\IppDotNetSdkForQuickBooksApiV3.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\IppDotNetSdkForQuickBooksApiV3.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Configuration.Xml.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Options.ConfigurationExtensions.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Serilog.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Serilog.Enrichers.Thread.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Serilog.Extensions.Logging.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Serilog.Settings.Configuration.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Serilog.Sinks.Console.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Serilog.Sinks.Debug.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Serilog.Sinks.File.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Serilog.Sinks.File.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\Serilog.Sinks.Trace.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\SerilogTraceListener.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\System.Buffers.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\System.Memory.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\System.Security.AccessControl.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\System.Security.Permissions.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\System.Security.Principal.Windows.xml

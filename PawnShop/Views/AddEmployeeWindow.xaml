@@ -1,0 +1,58 @@
+﻿<Window x:Class="PawnShop.Views.AddEmployeeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Добавление сотрудника" 
+        Height="490" 
+        Width="400"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        FontFamily="{materialDesign:MaterialDesignFont}">
+
+    <materialDesign:Card Margin="16" Padding="16">
+        <StackPanel>
+            <TextBlock Text="Новый сотрудник"
+                      Style="{StaticResource MaterialDesignHeadline6TextBlock}"
+                      Margin="0,0,0,24"
+                      HorizontalAlignment="Center"/>
+
+            <materialDesign:Card Padding="16" Margin="0,0,0,16">
+                <StackPanel>
+                    <TextBox
+                        x:Name="FullNameTextBox"
+                        Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                        materialDesign:HintAssist.Hint="ФИО"
+                        materialDesign:TextFieldAssist.HasClearButton="True"
+                        Margin="0,8,0,16"/>
+
+                    <TextBox
+                        x:Name="PositionTextBox"
+                        Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                        materialDesign:HintAssist.Hint="Должность"
+                        materialDesign:TextFieldAssist.HasClearButton="True"
+                        Margin="0,8,0,16"/>
+
+                    <DatePicker
+                        x:Name="HireDatePicker"
+                        Style="{StaticResource MaterialDesignOutlinedDatePicker}"
+                        materialDesign:HintAssist.Hint="Дата приема на работу"
+                        Margin="0,8,0,16"/>
+
+                    <Button
+                        Content="ДОБАВИТЬ СОТРУДНИКА"
+                        Style="{StaticResource MaterialDesignRaisedButton}"
+                        Click="AddButton_Click"
+                        Height="40"
+                        materialDesign:ButtonAssist.CornerRadius="20"
+                        Margin="0,16,0,0"/>
+                </StackPanel>
+            </materialDesign:Card>
+        </StackPanel>
+    </materialDesign:Card>
+</Window>
