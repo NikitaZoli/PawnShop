@@ -24,6 +24,12 @@ namespace PawnShop.Models
                 .HasRequired(t => t.Pledge)         // Связь обязательная
                 .WithMany()                         // У Pledge может быть много Transactions
                 .HasForeignKey(t => t.PledgeID);    // Внешний ключ
+
+            // Конфигурация для Pledge
+            modelBuilder.Entity<Pledge>()
+                .Property(p => p.Status)
+                .IsRequired()
+                .HasMaxLength(50);
         }
     }
 }

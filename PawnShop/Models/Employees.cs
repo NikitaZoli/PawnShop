@@ -11,6 +11,9 @@ namespace PawnShop.Models
         private string fullName = string.Empty;
         private string position;
         private DateTime hireDate = DateTime.Now;
+        private string login = string.Empty;
+        private string passwordHash = string.Empty;
+        private string role = "Employee";
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -67,6 +70,45 @@ namespace PawnShop.Models
                 if (hireDate != value)
                 {
                     hireDate = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+
+        public string Login
+        {
+            get => login;
+            set
+            {
+                if (login != value)
+                {
+                    login = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+
+        public string PasswordHash
+        {
+            get => passwordHash;
+            set
+            {
+                if (passwordHash != value)
+                {
+                    passwordHash = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+
+        public string Role
+        {
+            get => role;
+            set
+            {
+                if (role != value)
+                {
+                    role = value;
                     OnPropertyChanged();
                 }
             }

@@ -6,6 +6,7 @@ using System.Windows.Input;
 using System.Text.RegularExpressions;
 using System.Windows.Controls;
 using System.Collections.ObjectModel;
+using System.Linq;
 
 namespace PawnShop.Views
 {
@@ -49,17 +50,49 @@ namespace PawnShop.Views
                     // Если тип транзакции - "Погашение", меняем статус залога
                     if (transactionType == "Погашение" && selectedPledge != null)
                     {
-                        using (var context = new LombardContext())
+                        try
                         {
-                            var pledgeToUpdate = context.Pledges.Find(selectedPledge.PledgeID);
-                            if (pledgeToUpdate != null)
+                            using (var context = new LombardContext())
                             {
-                                pledgeToUpdate.Status = "Погашен";
-                                context.SaveChanges();
+                                // Включаем отслеживание изменений для сущности
+                                var pledgeToUpdate = context.Pledges
+                                    .FirstOrDefault(p => p.PledgeID == selectedPledge.PledgeID);
 
-                                // Обновляем локальную модель
-                                selectedPledge.Status = "Погашен";
+                                if (pledgeToUpdate != null)
+                                {
+                                    context.Pledges.Attach(pledgeToUpdate);
+                                    pledgeToUpdate.Status = "Погашен";
+                                    context.Entry(pledgeToUpdate).Property(x => x.Status).IsModified = true;
+
+                                    var changes = context.SaveChanges();
+
+                                    if (changes > 0)
+                                    {
+                                        // Обновляем локальную модель
+                                        selectedPledge.Status = "Погашен";
+
+                                        // Обновляем UI
+                                        if (Pledges != null)
+                                        {
+                                            var pledgeInCollection = Pledges.FirstOrDefault(p => p.PledgeID == selectedPledge.PledgeID);
+                                            if (pledgeInCollection != null)
+                                            {
+                                                pledgeInCollection.Status = "Погашен";
+                                            }
+                                        }
+
+                                        MessageBox.Show("Статус залога успешно обновлен на 'Погашен'");
+                                    }
+                                    else
+                                    {
+                                        MessageBox.Show("Не удалось обновить статус залога!");
+                                    }
+                                }
                             }
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show($"Ошибка при обновлении статуса: {ex.Message}");
                         }
                     }
 
@@ -99,7 +132,6 @@ namespace PawnShop.Views
                 ShowError("Пожалуйста, введите корректную сумму");
                 return false;
             }
-
             return true;
         }
 
