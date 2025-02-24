@@ -1,0 +1,44 @@
+﻿<Window x:Class="PawnShop.Views.AuthorizationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        WindowStartupLocation="CenterScreen"
+        Title="Авторизация"
+        Height="350"
+        Width="400"
+        ResizeMode="NoResize"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{materialDesign:MaterialDesignFont}">
+
+    <materialDesign:Card Margin="16" Padding="16">
+        <StackPanel>
+            <TextBlock Text="Вход в систему"
+                       Style="{StaticResource MaterialDesignHeadline6TextBlock}"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,20"/>
+
+            <TextBox x:Name="LoginTextBox"
+                     materialDesign:HintAssist.Hint="Логин"
+                     Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                     Margin="0,0,0,16"/>
+
+            <PasswordBox x:Name="PasswordBox"
+                         materialDesign:HintAssist.Hint="Пароль"
+                         Style="{StaticResource MaterialDesignOutlinedPasswordBox}"
+                         Margin="0,0,0,24"/>
+
+            <Button Content="Войти"
+                    Style="{StaticResource MaterialDesignRaisedButton}"
+                    Click="LoginButton_Click"
+                    Height="40"
+                    Margin="0,0,0,16"/>
+
+            <TextBlock x:Name="ErrorMessage"
+                       Foreground="Red"
+                       TextWrapping="Wrap"
+                       HorizontalAlignment="Center"
+                       Visibility="Collapsed"/>
+        </StackPanel>
+    </materialDesign:Card>
+</Window>

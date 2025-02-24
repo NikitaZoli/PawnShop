@@ -3,24 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\models\\pledge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\models\\pledge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\views\\employeespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\views\\employeespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u0440\u0441\u0430\u0447\\wpf\\pawnshop\\pawnshop\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\views\\authorizationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\views\\authorizationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\models\\lombardcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\models\\lombardcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\views\\pledgespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\views\\pledgespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\models\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\models\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043A\u0443\u0440\u0441\u0430\u0447\\wpf\\pawnshop\\pawnshop\\views\\addtransactionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\views\\authorizationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\views\\authorizationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\views\\addtransactionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\views\\addtransactionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\views\\pledgespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\views\\pledgespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\views\\addtransactionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\views\\addtransactionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\models\\pledge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\models\\pledge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\models\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,22 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\views\\clientspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\views\\clientspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\views\\employeespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\views\\employeespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\views\\pledgespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\views\\pledgespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\views\\pledgespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\views\\pledgespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\views\\addpledgewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -57,18 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\views\\addpledgewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\views\\addpledgewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\pawnshop\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04B5FE37-B54D-42CD-BA1F-684E656C5B3E}|PawnShop\\PawnShop.csproj|solutionrelative:pawnshop\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\f4601b571e4559842a6661e54ae192176ae8f83790b6c41ea5cba73e6087663e\\DefaultBinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -121,141 +137,40 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddTransactionWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\AddTransactionWindow.xaml",
-              "RelativeDocumentMoniker": "PawnShop\\Views\\AddTransactionWindow.xaml",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\AddTransactionWindow.xaml",
-              "RelativeToolTip": "PawnShop\\Views\\AddTransactionWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-26T22:57:27.619Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddTransactionWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\AddTransactionWindow.xaml.cs",
-              "RelativeDocumentMoniker": "PawnShop\\Views\\AddTransactionWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\AddTransactionWindow.xaml.cs",
-              "RelativeToolTip": "PawnShop\\Views\\AddTransactionWindow.xaml.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAYwD4AAABLAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AuthorizationWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\AuthorizationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PawnShop\\Views\\AuthorizationWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\AuthorizationWindow.xaml.cs",
+              "RelativeToolTip": "PawnShop\\Views\\AuthorizationWindow.xaml.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwGoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T23:02:27.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Pledge.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Models\\Pledge.cs",
-              "RelativeDocumentMoniker": "PawnShop\\Models\\Pledge.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Models\\Pledge.cs",
-              "RelativeToolTip": "PawnShop\\Models\\Pledge.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAmwIIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T07:05:32.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Transactions.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Models\\Transactions.cs",
-              "RelativeDocumentMoniker": "PawnShop\\Models\\Transactions.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Models\\Transactions.cs",
-              "RelativeToolTip": "PawnShop\\Models\\Transactions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T07:05:36.85Z",
+              "WhenOpened": "2025-02-22T09:39:02.102Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LombardContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Models\\LombardContext.cs",
-              "RelativeDocumentMoniker": "PawnShop\\Models\\LombardContext.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Models\\LombardContext.cs",
-              "RelativeToolTip": "PawnShop\\Models\\LombardContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T09:31:40.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Employees.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Models\\Employees.cs",
-              "RelativeDocumentMoniker": "PawnShop\\Models\\Employees.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Models\\Employees.cs",
-              "RelativeToolTip": "PawnShop\\Models\\Employees.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAHIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T07:05:28.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EmployeesPage.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\EmployeesPage.xaml",
-              "RelativeDocumentMoniker": "PawnShop\\Views\\EmployeesPage.xaml",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\EmployeesPage.xaml",
-              "RelativeToolTip": "PawnShop\\Views\\EmployeesPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-26T17:17:35.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PledgesPage.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\PledgesPage.xaml",
-              "RelativeDocumentMoniker": "PawnShop\\Views\\PledgesPage.xaml",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\PledgesPage.xaml",
-              "RelativeToolTip": "PawnShop\\Views\\PledgesPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-12T07:06:53.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ClientsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\ClientsPage.xaml",
-              "RelativeDocumentMoniker": "PawnShop\\Views\\ClientsPage.xaml",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\ClientsPage.xaml",
-              "RelativeToolTip": "PawnShop\\Views\\ClientsPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-06T12:23:28.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PledgesPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\PledgesPage.xaml.cs",
-              "RelativeDocumentMoniker": "PawnShop\\Views\\PledgesPage.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\PledgesPage.xaml.cs",
-              "RelativeToolTip": "PawnShop\\Views\\PledgesPage.xaml.cs",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAYwLwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T07:13:02.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\MainWindow.xaml",
               "RelativeDocumentMoniker": "PawnShop\\MainWindow.xaml",
@@ -267,7 +182,155 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\App.config",
+              "RelativeDocumentMoniker": "PawnShop\\App.config",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\App.config",
+              "RelativeToolTip": "PawnShop\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-23T17:58:02.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\App.xaml",
+              "RelativeDocumentMoniker": "PawnShop\\App.xaml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\App.xaml",
+              "RelativeToolTip": "PawnShop\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-06T12:42:31.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\EmployeesPage.xaml",
+              "RelativeDocumentMoniker": "PawnShop\\Views\\EmployeesPage.xaml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\EmployeesPage.xaml",
+              "RelativeToolTip": "PawnShop\\Views\\EmployeesPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-26T17:17:35.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PawnShop\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PawnShop\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T07:19:28.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LombardContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Models\\LombardContext.cs",
+              "RelativeDocumentMoniker": "PawnShop\\Models\\LombardContext.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Models\\LombardContext.cs",
+              "RelativeToolTip": "PawnShop\\Models\\LombardContext.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T09:31:40.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PledgesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\PledgesPage.xaml.cs",
+              "RelativeDocumentMoniker": "PawnShop\\Views\\PledgesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\PledgesPage.xaml.cs",
+              "RelativeToolTip": "PawnShop\\Views\\PledgesPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T07:13:02.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\packages.config",
+              "RelativeDocumentMoniker": "PawnShop\\packages.config",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\packages.config",
+              "RelativeToolTip": "PawnShop\\packages.config",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-23T18:09:18.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\App.xaml.cs",
+              "RelativeDocumentMoniker": "PawnShop\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\App.xaml.cs",
+              "RelativeToolTip": "PawnShop\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T15:54:55.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Employees.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Models\\Employees.cs",
+              "RelativeDocumentMoniker": "PawnShop\\Models\\Employees.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Models\\Employees.cs",
+              "RelativeToolTip": "PawnShop\\Models\\Employees.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAswHQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T07:05:28.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddTransactionWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\AddTransactionWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PawnShop\\Views\\AddTransactionWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\AddTransactionWindow.xaml.cs",
+              "RelativeToolTip": "PawnShop\\Views\\AddTransactionWindow.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T23:02:27.802Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "AuthorizationWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\AuthorizationWindow.xaml",
+              "RelativeDocumentMoniker": "PawnShop\\Views\\AuthorizationWindow.xaml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\AuthorizationWindow.xaml",
+              "RelativeToolTip": "PawnShop\\Views\\AuthorizationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-22T09:38:29.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ClientsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\ClientsPage.xaml",
+              "RelativeDocumentMoniker": "PawnShop\\Views\\ClientsPage.xaml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\ClientsPage.xaml",
+              "RelativeToolTip": "PawnShop\\Views\\ClientsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-06T12:23:28.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "AddPledgeWindow.xaml",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\AddPledgeWindow.xaml",
               "RelativeDocumentMoniker": "PawnShop\\Views\\AddPledgeWindow.xaml",
@@ -279,18 +342,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "AddEmployeeWindow.xaml",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\AddEmployeeWindow.xaml",
               "RelativeDocumentMoniker": "PawnShop\\Views\\AddEmployeeWindow.xaml",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\AddEmployeeWindow.xaml",
               "RelativeToolTip": "PawnShop\\Views\\AddEmployeeWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-06T12:34:01.575Z"
+              "WhenOpened": "2024-12-06T12:34:01.575Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "TransactionsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\TransactionsPage.xaml.cs",
               "RelativeDocumentMoniker": "PawnShop\\Views\\TransactionsPage.xaml.cs",
@@ -303,42 +367,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "PawnShop\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\MainWindow.xaml.cs",
-              "RelativeToolTip": "PawnShop\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T07:19:28.668Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\App.xaml.cs",
-              "RelativeDocumentMoniker": "PawnShop\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\App.xaml.cs",
-              "RelativeToolTip": "PawnShop\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T15:54:55.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\App.xaml",
-              "RelativeDocumentMoniker": "PawnShop\\App.xaml",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\App.xaml",
-              "RelativeToolTip": "PawnShop\\App.xaml",
+              "Title": "AddTransactionWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\AddTransactionWindow.xaml",
+              "RelativeDocumentMoniker": "PawnShop\\Views\\AddTransactionWindow.xaml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\AddTransactionWindow.xaml",
+              "RelativeToolTip": "PawnShop\\Views\\AddTransactionWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-06T12:42:31.279Z",
+              "WhenOpened": "2024-12-26T22:57:27.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
+              "Title": "Pledge.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Models\\Pledge.cs",
+              "RelativeDocumentMoniker": "PawnShop\\Models\\Pledge.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Models\\Pledge.cs",
+              "RelativeToolTip": "PawnShop\\Models\\Pledge.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAQwDsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T07:05:32.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PledgesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\PledgesPage.xaml",
+              "RelativeDocumentMoniker": "PawnShop\\Views\\PledgesPage.xaml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\PledgesPage.xaml",
+              "RelativeToolTip": "PawnShop\\Views\\PledgesPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-12T07:06:53.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Transactions.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Models\\Transactions.cs",
+              "RelativeDocumentMoniker": "PawnShop\\Models\\Transactions.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Models\\Transactions.cs",
+              "RelativeToolTip": "PawnShop\\Models\\Transactions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T07:05:36.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "EmployeesPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\EmployeesPage.xaml.cs",
               "RelativeDocumentMoniker": "PawnShop\\Views\\EmployeesPage.xaml.cs",
@@ -350,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "AddPledgeWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\AddPledgeWindow.xaml.cs",
               "RelativeDocumentMoniker": "PawnShop\\Views\\AddPledgeWindow.xaml.cs",
@@ -362,31 +438,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "AddClientWindow.xaml",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\AddClientWindow.xaml",
               "RelativeDocumentMoniker": "PawnShop\\Views\\AddClientWindow.xaml",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\AddClientWindow.xaml",
               "RelativeToolTip": "PawnShop\\Views\\AddClientWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-06T12:23:56.025Z"
+              "WhenOpened": "2024-12-06T12:23:56.025Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "DefaultBinder.cs",
               "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\f4601b571e4559842a6661e54ae192176ae8f83790b6c41ea5cba73e6087663e\\DefaultBinder.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\f4601b571e4559842a6661e54ae192176ae8f83790b6c41ea5cba73e6087663e\\DefaultBinder.cs",
-              "ToolTip": "C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\f4601b571e4559842a6661e54ae192176ae8f83790b6c41ea5cba73e6087663e\\DefaultBinder.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\f4601b571e4559842a6661e54ae192176ae8f83790b6c41ea5cba73e6087663e\\DefaultBinder.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "ToolTip": "C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\f4601b571e4559842a6661e54ae192176ae8f83790b6c41ea5cba73e6087663e\\DefaultBinder.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\f4601b571e4559842a6661e54ae192176ae8f83790b6c41ea5cba73e6087663e\\DefaultBinder.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAUwCMAAAAPAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:05:11.398Z",
-              "EditorCaption": " [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]"
+              "WhenOpened": "2025-02-21T09:05:11.398Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "AddClientWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\AddClientWindow.xaml.cs",
               "RelativeDocumentMoniker": "PawnShop\\Views\\AddClientWindow.xaml.cs",
@@ -398,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Models\\Client.cs",
               "RelativeDocumentMoniker": "PawnShop\\Models\\Client.cs",
@@ -410,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "AddEmployeeWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\AddEmployeeWindow.xaml.cs",
               "RelativeDocumentMoniker": "PawnShop\\Views\\AddEmployeeWindow.xaml.cs",
@@ -422,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "ClientsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\ClientsPage.xaml.cs",
               "RelativeDocumentMoniker": "PawnShop\\Views\\ClientsPage.xaml.cs",
@@ -434,18 +510,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "TransactionsPage.xaml",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\TransactionsPage.xaml",
               "RelativeDocumentMoniker": "PawnShop\\Views\\TransactionsPage.xaml",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\Views\\TransactionsPage.xaml",
               "RelativeToolTip": "PawnShop\\Views\\TransactionsPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-26T22:57:21.416Z"
+              "WhenOpened": "2024-12-26T22:57:21.416Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "ClassDiagram1.cd",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\ClassDiagram1.cd",
               "RelativeDocumentMoniker": "PawnShop\\ClassDiagram1.cd",
@@ -456,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "PawnshopDataSet.xsd",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041A\u0443\u0440\u0441\u0430\u0447\\WPF\\PawnShop\\PawnShop\\PawnshopDataSet.xsd",
               "RelativeDocumentMoniker": "PawnShop\\PawnshopDataSet.xsd",

@@ -50,7 +50,8 @@
                 </StackPanel>
             </materialDesign:ColorZone>
 
-            <TabControl Grid.Row="1" 
+            <TabControl x:Name="MainTabControl"
+                        Grid.Row="1" 
                        materialDesign:ShadowAssist.ShadowDepth="Depth0"
                        TabStripPlacement="Left"
                        Style="{StaticResource MaterialDesignNavigationRailTabControl}"

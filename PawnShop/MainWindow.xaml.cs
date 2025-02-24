@@ -1,25 +1,36 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace PawnShop
 {
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        private string _currentUserRole;
+
+        public MainWindow(string role)
         {
             InitializeComponent();
+            _currentUserRole = role;
+            ConfigureAccess();
+        }
+
+        private void ConfigureAccess()
+        {
+            if (_currentUserRole == "Employee")
+            {
+                // Поиск вкладки "Сотрудники" через содержимое заголовка
+                var employeesTab = MainTabControl.Items
+                    .Cast<TabItem>()
+                    .FirstOrDefault(t =>
+                        (t.Header is StackPanel headerPanel) &&
+                        headerPanel.Children.OfType<TextBlock>().Any(tb => tb.Text == "Сотрудники"));
+
+                if (employeesTab != null)
+                {
+                    MainTabControl.Items.Remove(employeesTab);
+                }
+            }
         }
     }
 }

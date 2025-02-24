@@ -201,3 +201,7 @@ C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnSho
 C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop.csproj.Up2Date
 C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop.exe
 C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\PawnShop.pdb
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\Views\AuthorizationWindow.baml
+C:\Users\User\OneDrive\Рабочий стол\Курсач\WPF\PawnShop\PawnShop\obj\Debug\Views\AuthorizationWindow.g.cs
