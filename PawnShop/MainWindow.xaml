@@ -52,10 +52,10 @@
 
             <TabControl x:Name="MainTabControl"
                         Grid.Row="1" 
-                       materialDesign:ShadowAssist.ShadowDepth="Depth0"
-                       TabStripPlacement="Left"
-                       Style="{StaticResource MaterialDesignNavigationRailTabControl}"
-                       Margin="5">
+                        materialDesign:ShadowAssist.ShadowDepth="Depth0"
+                        TabStripPlacement="Left"
+                        Style="{StaticResource MaterialDesignNavigationRailTabControl}"
+                        Margin="5">
                 <TabControl.Resources>
                     <Style TargetType="TabPanel">
                         <Setter Property="Background" Value="{DynamicResource MaterialDesignPaper}"/>
@@ -63,44 +63,49 @@
                     </Style>
                 </TabControl.Resources>
 
-                <TabItem Width="150">
+                <TabItem Width="150" x:Name="ClientsTab">
                     <TabItem.Header>
                         <StackPanel Width="140">
                             <materialDesign:PackIcon Kind="AccountMultiple" Width="24" Height="24" HorizontalAlignment="Center"/>
                             <TextBlock Text="Клиенты" HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center"/>
                         </StackPanel>
                     </TabItem.Header>
-                    <views:ClientsPage Margin="10,0,0,0"/>
                 </TabItem>
 
-                <TabItem Width="150">
+                <TabItem Width="150" x:Name="PledgesTab">
                     <TabItem.Header>
                         <StackPanel Width="140">
                             <materialDesign:PackIcon Kind="Safe" Width="24" Height="24" HorizontalAlignment="Center"/>
                             <TextBlock Text="Залоги" HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center"/>
                         </StackPanel>
                     </TabItem.Header>
-                    <views:PledgesPage/>
                 </TabItem>
 
-                <TabItem Width="150">
+                <TabItem Width="150" x:Name="EmployeesTab">
                     <TabItem.Header>
                         <StackPanel Width="140">
                             <materialDesign:PackIcon Kind="BadgeAccountHorizontal" Width="24" Height="24" HorizontalAlignment="Center"/>
                             <TextBlock Text="Сотрудники" HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center"/>
                         </StackPanel>
                     </TabItem.Header>
-                    <views:EmployeesPage/>
                 </TabItem>
 
-                <TabItem Width="150">
+                <TabItem Width="150" x:Name="TransactionsTab">
                     <TabItem.Header>
                         <StackPanel Width="140">
                             <materialDesign:PackIcon Kind="CashMultiple" Width="24" Height="24" HorizontalAlignment="Center"/>
                             <TextBlock Text="Транзакции" HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center"/>
                         </StackPanel>
                     </TabItem.Header>
-                    <views:TransactionsPage/>
+                </TabItem>
+
+                <TabItem Width="150" x:Name="ReportsTab">
+                    <TabItem.Header>
+                        <StackPanel Width="140">
+                            <materialDesign:PackIcon Kind="ChartBar" Width="24" Height="24" HorizontalAlignment="Center"/>
+                            <TextBlock Text="Отчёты" HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center"/>
+                        </StackPanel>
+                    </TabItem.Header>
                 </TabItem>
             </TabControl>
         </Grid>

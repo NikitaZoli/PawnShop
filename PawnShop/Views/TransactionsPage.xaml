@@ -16,17 +16,15 @@
             <Button Content="Добавить транзакцию" Click="AddTransactionButton_Click" Width="200" Height="30"/>
         </StackPanel>
 
-        <!--<Button Content="Add Transaction" Click="AddTransactionButton_Click" Width="120" Height="30"/>-->
-
-        <DataGrid Name="TransactionsDataGrid" AutoGenerateColumns="False" Margin="10,3,10,-29" Grid.Row="1" CanUserAddRows="False">
+        <DataGrid Name="TransactionsDataGrid" AutoGenerateColumns="False" Margin="10,3,10,0" Grid.Row="1" CanUserAddRows="False">
             <DataGrid.Columns>
+                <DataGridTextColumn Header="EmployeeID" Binding="{Binding EmployeeId}" Width="*"/>
                 <DataGridTextColumn Header="ID Транзакции" Binding="{Binding TransactionID}" Width="*"/>
                 <DataGridTextColumn Header="ID Залога" Binding="{Binding PledgeID}" Width="*"/>
                 <DataGridTextColumn Header="Тип" Binding="{Binding TransactionType}" Width="*"/>
-                <DataGridTextColumn Header="Дата" Binding="{Binding TransactionDate}" Width="*"/>
-                <DataGridTextColumn Header="Сумма" Binding="{Binding Amount}" Width="*"/>
+                <DataGridTextColumn Header="Дата" Binding="{Binding TransactionDate, StringFormat={}{0:yyyy-MM-dd}}" Width="*"/>
+                <DataGridTextColumn Header="Сумма" Binding="{Binding Amount, StringFormat={}{0:C}}" Width="*"/>
             </DataGrid.Columns>
         </DataGrid>
-        <!--<Button Content="Add Transaction" Click="AddTransactionButton_Click" Width="120" Height="30"/>-->
     </Grid>
 </UserControl>

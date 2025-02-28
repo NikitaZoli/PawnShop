@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         Title="Добавление транзакции" 
-        Height="580" 
+        Height="650" 
         Width="400"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
         Background="{DynamicResource MaterialDesignPaper}"
@@ -55,6 +55,14 @@
                         materialDesign:HintAssist.Hint="Выберите залог"
                         DisplayMemberPath="ItemDescription"
                         SelectedValuePath="PledgeID"
+                        Margin="0,8,0,16"/>
+
+                    <ComboBox
+                        x:Name="EmployeeComboBox"
+                        Style="{StaticResource MaterialDesignOutlinedComboBox}"
+                        materialDesign:HintAssist.Hint="Выберите сотрудника"
+                        DisplayMemberPath="FullName"
+                        SelectedValuePath="EmployeeID"
                         Margin="0,8,0,16"/>
 
                     <Button

@@ -14,16 +14,19 @@ namespace PawnShop.Views
     {
         public Transactions NewTransaction { get; private set; }
         private readonly ObservableCollection<Pledge> Pledges;
+        private readonly ObservableCollection<Employees> Employees;
         private static readonly Regex _numberRegex = new Regex("[^0-9,.]"); // Разрешаем только цифры и разделители
 
-        public AddTransactionWindow(ObservableCollection<Pledge> pledges)
+        public AddTransactionWindow(ObservableCollection<Pledge> pledges, ObservableCollection<Employees> employees)
         {
             InitializeComponent();
             Pledges = pledges;
+            Employees = employees;
 
             // Инициализация значений
             TransactionDatePicker.SelectedDate = DateTime.Today;
             PledgeComboBox.ItemsSource = Pledges;
+            EmployeeComboBox.ItemsSource = Employees;
         }
 
         private void AddButton_Click(object sender, RoutedEventArgs e)
@@ -34,6 +37,7 @@ namespace PawnShop.Views
             try
             {
                 var selectedPledge = PledgeComboBox.SelectedItem as Pledge;
+                var selectedEmployee = EmployeeComboBox.SelectedItem as Employees;
                 var transactionType = (TransactionTypeComboBox.SelectedItem as ComboBoxItem)?.Content.ToString();
 
                 if (decimal.TryParse(AmountTextBox.Text.Replace(".", ","), out decimal amount))
@@ -44,17 +48,16 @@ namespace PawnShop.Views
                         TransactionDate = TransactionDatePicker.SelectedDate ?? DateTime.Today,
                         Amount = amount,
                         PledgeID = selectedPledge.PledgeID,
-                        Pledge = selectedPledge
+                        EmployeeId = selectedEmployee.EmployeeID // Указываем EmployeeId
                     };
 
                     // Если тип транзакции - "Погашение", меняем статус залога
-                    if (transactionType == "Погашение" && selectedPledge != null)
+                    if (transactionType == "Погашение займа" && selectedPledge != null)
                     {
                         try
                         {
                             using (var context = new LombardContext())
                             {
-                                // Включаем отслеживание изменений для сущности
                                 var pledgeToUpdate = context.Pledges
                                     .FirstOrDefault(p => p.PledgeID == selectedPledge.PledgeID);
 
@@ -68,19 +71,12 @@ namespace PawnShop.Views
 
                                     if (changes > 0)
                                     {
-                                        // Обновляем локальную модель
                                         selectedPledge.Status = "Погашен";
-
-                                        // Обновляем UI
-                                        if (Pledges != null)
+                                        var pledgeInCollection = Pledges.FirstOrDefault(p => p.PledgeID == selectedPledge.PledgeID);
+                                        if (pledgeInCollection != null)
                                         {
-                                            var pledgeInCollection = Pledges.FirstOrDefault(p => p.PledgeID == selectedPledge.PledgeID);
-                                            if (pledgeInCollection != null)
-                                            {
-                                                pledgeInCollection.Status = "Погашен";
-                                            }
+                                            pledgeInCollection.Status = "Погашен";
                                         }
-
                                         MessageBox.Show("Статус залога успешно обновлен на 'Погашен'");
                                     }
                                     else
@@ -102,8 +98,16 @@ namespace PawnShop.Views
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Произошла ошибка при создании транзакции: {ex.Message}",
-                    "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                Console.WriteLine($"Ошибка при добавлении транзакции: {ex.Message}");
+                if (ex.InnerException != null)
+                {
+                    Console.WriteLine($"Внутреннее исключение: {ex.InnerException.Message}");
+                    if (ex.InnerException.InnerException != null)
+                    {
+                        Console.WriteLine($"Внутреннее исключение 2: {ex.InnerException.InnerException.Message}");
+                    }
+                }
+                MessageBox.Show($"Произошла ошибка при создании транзакции: {ex.Message}", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -127,6 +131,12 @@ namespace PawnShop.Views
                 return false;
             }
 
+            if (EmployeeComboBox.SelectedItem == null)
+            {
+                ShowError("Пожалуйста, выберите сотрудника");
+                return false;
+            }
+
             if (!decimal.TryParse(AmountTextBox.Text.Replace(".", ","), out decimal _))
             {
                 ShowError("Пожалуйста, введите корректную сумму");
@@ -137,13 +147,11 @@ namespace PawnShop.Views
 
         private void ShowError(string message)
         {
-            MessageBox.Show(message, "Предупреждение",
-                MessageBoxButton.OK, MessageBoxImage.Warning);
+            MessageBox.Show(message, "Предупреждение", MessageBoxButton.OK, MessageBoxImage.Warning);
         }
 
         private void AmountTextBox_PreviewTextInput(object sender, TextCompositionEventArgs e)
         {
-            // Проверяем, является ли вводимый символ допустимым
             e.Handled = _numberRegex.IsMatch(e.Text);
         }
     }

@@ -9,7 +9,6 @@ namespace PawnShop.Models
         public DbSet<Transactions> Transactions { get; set; }
         public DbSet<Employees> Employees { get; set; }
 
-
         public LombardContext() : base("Data Source=USER-2RABC32TPE\\SQLEXPRESS;Initial Catalog=Pawnshop;Integrated Security=True")
         {
             Configuration.LazyLoadingEnabled = false; // Отключение ленивой загрузки
@@ -25,6 +24,12 @@ namespace PawnShop.Models
                 .WithMany()                         // У Pledge может быть много Transactions
                 .HasForeignKey(t => t.PledgeID);    // Внешний ключ
 
+            // Настройка связи Transactions -> Employees
+            modelBuilder.Entity<Transactions>()
+                .HasRequired(t => t.Employee)       // Связь обязательная
+                .WithMany()                         // У Employees может быть много Transactions
+                .HasForeignKey(t => t.EmployeeId);  // Внешний ключ
+
             // Конфигурация для Pledge
             modelBuilder.Entity<Pledge>()
                 .Property(p => p.Status)
@@ -33,4 +38,3 @@ namespace PawnShop.Models
         }
     }
 }
-

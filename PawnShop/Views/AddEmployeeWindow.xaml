@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         Title="Добавление сотрудника" 
-        Height="490" 
+        Height="690" 
         Width="400"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
         Background="{DynamicResource MaterialDesignPaper}"
@@ -44,6 +44,29 @@
                         materialDesign:HintAssist.Hint="Дата приема на работу"
                         Margin="0,8,0,16"/>
 
+                    <TextBox
+                        x:Name="LoginTextBox"
+                        Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                        materialDesign:HintAssist.Hint="Логин"
+                        materialDesign:TextFieldAssist.HasClearButton="True"
+                        Margin="0,8,0,16"/>
+
+                    <PasswordBox
+                        x:Name="PasswordBox"
+                        Style="{StaticResource MaterialDesignOutlinedPasswordBox}"
+                        materialDesign:HintAssist.Hint="Пароль"
+                        materialDesign:TextFieldAssist.HasClearButton="True"
+                        Margin="0,8,0,16"/>
+
+                    <ComboBox
+                        x:Name="RoleComboBox"
+                        Style="{StaticResource MaterialDesignOutlinedComboBox}"
+                        materialDesign:HintAssist.Hint="Роль"
+                        Margin="0,8,0,16">
+                        <ComboBoxItem Content="Admin"/>
+                        <ComboBoxItem Content="Employee"/>
+                    </ComboBox>
+
                     <Button
                         Content="ДОБАВИТЬ СОТРУДНИКА"
                         Style="{StaticResource MaterialDesignRaisedButton}"
@@ -51,6 +74,13 @@
                         Height="40"
                         materialDesign:ButtonAssist.CornerRadius="20"
                         Margin="0,16,0,0"/>
+
+                    <TextBlock
+                        x:Name="ErrorMessage"
+                        Foreground="{DynamicResource MaterialDesignError}"
+                        Visibility="Collapsed"
+                        TextWrapping="Wrap"
+                        Margin="0,10,0,0"/>
                 </StackPanel>
             </materialDesign:Card>
         </StackPanel>

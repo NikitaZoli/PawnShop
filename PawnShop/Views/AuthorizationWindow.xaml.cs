@@ -71,7 +71,7 @@ namespace PawnShop.Views
             ErrorMessage.Visibility = Visibility.Visible;
         }
 
-        // Метод для создания пользователя (вызывай вручную, если нужно)
+        // Метод для создания пользователя (вызывать вручную, если нужно)
         private void RegisterTestUser()
         {
             using (var context = new LombardContext())

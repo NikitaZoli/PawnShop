@@ -6,17 +6,24 @@
       xmlns:local="clr-namespace:PawnShop.Views"
       mc:Ignorable="d" >
     <Grid>
-
         <Grid.RowDefinitions>
-        <RowDefinition Height="Auto"/>
-        <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10">
-            <Button Content="Добавить сотрудника" Click="AddEmployeeButton_Click" Width="200" Height="30"/>
+            <Button x:Name="AddEmployeeButton" 
+                    Content="Добавить сотрудника" 
+                    Click="AddEmployeeButton_Click" 
+                    Width="200" 
+                    Height="30"/>
         </StackPanel>
 
-        <DataGrid Name="EmployeesDataGrid" AutoGenerateColumns="False" Margin="10" Grid.Row="1" CanUserAddRows="False">
+        <DataGrid Name="EmployeesDataGrid" 
+                  AutoGenerateColumns="False" 
+                  Margin="10" 
+                  Grid.Row="1" 
+                  CanUserAddRows="False">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID Сотрудника" Binding="{Binding EmployeeID}" Width="*"/>
                 <DataGridTextColumn Header="ФИО" Binding="{Binding FullName}" Width="*"/>
