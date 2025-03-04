@@ -1,62 +1,138 @@
 ﻿<UserControl x:Class="PawnShop.Views.ReportsPage"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PawnShop.Views"
+             Background="#F5F5F5"
              mc:Ignorable="d">
-    <Grid Margin="10">
-        <StackPanel>
-            <TextBlock Text="Отчёты и аналитика"
-                       Style="{StaticResource MaterialDesignHeadline6TextBlock}"
-                       Margin="0,0,0,20"
-                       HorizontalAlignment="Center"/>
 
-            <!-- Фильтры по дате -->
-            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+    <UserControl.Resources>
+        <!-- Стили из TransactionsPage -->
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#3498DB"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Padding" Value="15,8"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                CornerRadius="4"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#2980B9"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style TargetType="DataGrid">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#BDC3C7"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="RowBackground" Value="White"/>
+            <Setter Property="AlternatingRowBackground" Value="#F9F9F9"/>
+            <Setter Property="HorizontalGridLinesBrush" Value="#EEEEEE"/>
+            <Setter Property="VerticalGridLinesBrush" Value="#EEEEEE"/>
+            <Setter Property="RowHeight" Value="36"/>
+            <Setter Property="ColumnHeaderHeight" Value="42"/>
+        </Style>
+
+        <Style TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="#34495E"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Padding" Value="10,8"/>
+            <Setter Property="BorderThickness" Value="0,0,1,0"/>
+            <Setter Property="BorderBrush" Value="#2C3E50"/>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок -->
+        <TextBlock Text="Отчёты и аналитика" 
+                   FontSize="24" 
+                   FontWeight="SemiBold" 
+                   Foreground="#2C3E50"
+                   Margin="0,0,0,16"/>
+
+        <!-- Панель фильтров -->
+        <Border Grid.Row="1" 
+                Background="White" 
+                CornerRadius="6" 
+                Padding="20" 
+                Margin="0,0,0,16"
+                BorderBrush="#EEEEEE"
+                BorderThickness="1">
+            <StackPanel Orientation="Horizontal">
                 <DatePicker x:Name="StartDatePicker"
-                            Style="{StaticResource MaterialDesignOutlinedDatePicker}"
-                            materialDesign:HintAssist.Hint="Начальная дата"
-                            Margin="0,0,10,0"/>
+                            Width="200"
+                            Margin="0,0,10,0"
+                            Style="{StaticResource MaterialDesignOutlinedDatePicker}"/>
                 <DatePicker x:Name="EndDatePicker"
-                            Style="{StaticResource MaterialDesignOutlinedDatePicker}"
-                            materialDesign:HintAssist.Hint="Конечная дата"
-                            Margin="0,0,10,0"/>
-                <Button Content="Обновить"
-                        Style="{StaticResource MaterialDesignRaisedButton}"
+                            Width="200"
+                            Margin="0,0,10,0"
+                            Style="{StaticResource MaterialDesignOutlinedDatePicker}"/>
+                <Button Content="Обновить" 
+                        Style="{StaticResource ButtonStyle}"
                         Click="UpdateReports_Click"
-                        Height="30"
-                        Margin="0,0,0,0"/>
+                        Height="32"/>
+                <Button Content="Экспорт в Excel" 
+                        Style="{StaticResource ButtonStyle}"
+                        Click="ExportToCsv_Click"
+                        Height="32"
+                        Margin="10,0,0,0"/>
             </StackPanel>
+        </Border>
 
-            <!-- Общая сумма транзакций -->
-            <materialDesign:Card Padding="10" Margin="0,0,0,10">
-                <StackPanel>
-                    <TextBlock Text="Общая сумма транзакций:" FontSize="16"/>
-                    <TextBlock x:Name="TotalTransactionsAmount" FontSize="14" Margin="0,5,0,0"/>
-                </StackPanel>
-            </materialDesign:Card>
+        <!-- Карточки с отчётами -->
+        <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto">
+            <StackPanel Margin="0,0,0,10">
+                <!-- Общая сумма -->
+                <Border Background="White" CornerRadius="6" Margin="0,0,0,10" Padding="15">
+                    <StackPanel>
+                        <TextBlock Text="Общая сумма транзакций:" FontSize="16" Foreground="#34495E"/>
+                        <TextBlock x:Name="TotalTransactionsAmount" FontSize="14" Foreground="#2C3E50"/>
+                    </StackPanel>
+                </Border>
 
-            <!-- Количество активных залогов -->
-            <materialDesign:Card Padding="10" Margin="0,0,0,10">
-                <StackPanel>
-                    <TextBlock Text="Активных залогов:" FontSize="16"/>
-                    <TextBlock x:Name="ActivePledgesCount" FontSize="14" Margin="0,5,0,0"/>
-                </StackPanel>
-            </materialDesign:Card>
+                <!-- Активные залоги -->
+                <Border Background="White" CornerRadius="6" Margin="0,0,0,10" Padding="15">
+                    <StackPanel>
+                        <TextBlock Text="Активных залогов:" FontSize="16" Foreground="#34495E"/>
+                        <TextBlock x:Name="ActivePledgesCount" FontSize="14" Foreground="#2C3E50"/>
+                    </StackPanel>
+                </Border>
 
-            <!-- Активность сотрудников -->
-            <materialDesign:Card Padding="10" Margin="0,0,0,10">
-                <StackPanel>
-                    <TextBlock Text="Активность сотрудников:" FontSize="16"/>
-                    <DataGrid x:Name="EmployeeActivityGrid" AutoGenerateColumns="False" Margin="0,5,0,0">
-                        <DataGrid.Columns>
-                            <DataGridTextColumn Header="ФИО" Binding="{Binding FullName}" Width="*"/>
-                            <DataGridTextColumn Header="Количество транзакций" Binding="{Binding TransactionCount}" Width="*"/>
-                        </DataGrid.Columns>
-                    </DataGrid>
-                </StackPanel>
-            </materialDesign:Card>
-        </StackPanel>
+                <!-- Активность сотрудников -->
+                <Border Background="White" CornerRadius="6" Padding="15">
+                    <StackPanel>
+                        <TextBlock Text="Активность сотрудников:" FontSize="16" Foreground="#34495E" Margin="0,0,0,5"/>
+                        <DataGrid x:Name="EmployeeActivityGrid" 
+                                AutoGenerateColumns="False"
+                                Height="300">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="ФИО" Binding="{Binding FullName}" Width="*"/>
+                                <DataGridTextColumn Header="Количество транзакций" Binding="{Binding TransactionCount}" Width="*"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </UserControl>

@@ -23,7 +23,6 @@ namespace PawnShop.Views
             Pledges = pledges;
             Employees = employees;
 
-            // Инициализация значений
             TransactionDatePicker.SelectedDate = DateTime.Today;
             PledgeComboBox.ItemsSource = Pledges;
             EmployeeComboBox.ItemsSource = Employees;
@@ -48,7 +47,7 @@ namespace PawnShop.Views
                         TransactionDate = TransactionDatePicker.SelectedDate ?? DateTime.Today,
                         Amount = amount,
                         PledgeID = selectedPledge.PledgeID,
-                        EmployeeId = selectedEmployee.EmployeeID // Указываем EmployeeId
+                        EmployeeId = selectedEmployee.EmployeeID 
                     };
 
                     // Если тип транзакции - "Погашение", меняем статус залога

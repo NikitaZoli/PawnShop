@@ -1,71 +1,354 @@
 ﻿<UserControl x:Class="PawnShop.Views.PledgesPage"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <Grid>
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             Background="#F5F5F5">
+    <UserControl.Resources>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#3498DB"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Padding" Value="15,8"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                CornerRadius="4"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#2980B9"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="TextBoxStyle" TargetType="TextBox">
+            <Setter Property="Height" Value="32"/>
+            <Setter Property="Padding" Value="8,5"/>
+            <Setter Property="BorderBrush" Value="#BDC3C7"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="White" 
+                                CornerRadius="4"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <ScrollViewer x:Name="PART_ContentHost" Margin="{TemplateBinding Padding}"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="RadioButtonStyle" TargetType="RadioButton">
+            <Setter Property="Margin" Value="0,0,16,0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Foreground" Value="#34495E"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="RadioButton">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Border x:Name="RadioBorder" 
+                                    Width="18" 
+                                    Height="18" 
+                                    CornerRadius="9" 
+                                    BorderThickness="2" 
+                                    BorderBrush="#BDC3C7" 
+                                    Background="White">
+                                <Ellipse x:Name="RadioMark" 
+                                         Width="10" 
+                                         Height="10" 
+                                         Opacity="0"
+                                         Fill="#3498DB"/>
+                            </Border>
+                            <ContentPresenter Grid.Column="1" 
+                                            Margin="8,0,0,0" 
+                                            VerticalAlignment="Center"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter TargetName="RadioMark" Property="Opacity" Value="1"/>
+                                <Setter TargetName="RadioBorder" Property="BorderBrush" Value="#3498DB"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="RadioBorder" Property="BorderBrush" Value="#2980B9"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="ActionButtonStyle" TargetType="Button">
+            <Setter Property="Width" Value="28"/>
+            <Setter Property="Height" Value="28"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Margin" Value="4,0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                CornerRadius="3"
+                                Width="{TemplateBinding Width}"
+                                Height="{TemplateBinding Height}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Opacity" Value="0.85"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="EditButtonStyle" TargetType="Button" BasedOn="{StaticResource ActionButtonStyle}">
+            <Setter Property="Background" Value="#3498DB"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+
+        <Style x:Key="DeleteButtonStyle" TargetType="Button" BasedOn="{StaticResource ActionButtonStyle}">
+            <Setter Property="Background" Value="#E74C3C"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+
+        <Style x:Key="DataGridStyle" TargetType="DataGrid">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#BDC3C7"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="RowBackground" Value="White"/>
+            <Setter Property="AlternatingRowBackground" Value="#F9F9F9"/>
+            <Setter Property="HorizontalGridLinesBrush" Value="#EEEEEE"/>
+            <Setter Property="VerticalGridLinesBrush" Value="#EEEEEE"/>
+            <Setter Property="RowHeight" Value="36"/>
+            <Setter Property="ColumnHeaderHeight" Value="42"/>
+        </Style>
+
+        <Style x:Key="DataGridColumnHeaderStyle" TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="#34495E"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Padding" Value="10,8"/>
+            <Setter Property="BorderThickness" Value="0,0,1,0"/>
+            <Setter Property="BorderBrush" Value="#2C3E50"/>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid Margin="16">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <!-- Кнопки и поиск -->
-        <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="5">
-            <Button Content="Добавить залог" 
-                    Click="SavePledge_Click" 
-                    Width="200" 
-                    Height="30"/>
-            <TextBox x:Name="SearchTextBox"
-                     Width="200"
-                     Height="30"
-                     Margin="10,0,0,0"
-                     Text="Поиск..."
-                     Foreground="Gray"
-                     GotFocus="SearchTextBox_GotFocus"
-                     LostFocus="SearchTextBox_LostFocus"
-                     TextChanged="SearchTextBox_TextChanged"/>
-        </StackPanel>
+        <!-- Заголовок -->
+        <TextBlock Text="Управление залогами" 
+                   FontSize="24" 
+                   FontWeight="SemiBold" 
+                   Foreground="#2C3E50"
+                   Margin="0,0,0,16"/>
 
-        <!-- Фильтры поиска -->
-        <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="5">
-            <RadioButton Content="По ID" 
-                         Name="SearchByIdRadio" 
-                         IsChecked="True" 
-                         Margin="0,0,10,0"
-                         Checked="SearchRadioButton_Checked"/>
-            <RadioButton Content="По ID клиента" 
-                         Name="SearchByClientIdRadio" 
-                         Margin="0,0,10,0"
-                         Checked="SearchRadioButton_Checked"/>
-            <RadioButton Content="По описанию" 
-                         Name="SearchByDescriptionRadio"
-                         Margin="0,0,10,0"
-                         Checked="SearchRadioButton_Checked"/>
-            <RadioButton Content="По статусу"
-                         Name="SearchByStatusRadio"
-                         Checked="SearchRadioButton_Checked"/>
-        </StackPanel>
+        <!-- Панель инструментов и поиска -->
+        <Border Grid.Row="1" 
+                Background="White" 
+                CornerRadius="6" 
+                Padding="20" 
+                Margin="0,0,0,16"
+                BorderBrush="#EEEEEE"
+                BorderThickness="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
 
-        <!-- DataGrid -->
+                <!-- Верхний ряд: Кнопка добавления и поле поиска -->
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Кнопка добавления залога -->
+                    <Button Content="Добавить залог" 
+                            Click="SavePledge_Click" 
+                            Style="{StaticResource ButtonStyle}"
+                            Height="32"
+                            Grid.Column="0"
+                            Margin="0,0,16,0">
+                        <Button.ContentTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="+" FontWeight="Bold" Margin="0,0,8,0"/>
+                                    <TextBlock Text="Добавить залог"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </Button.ContentTemplate>
+                    </Button>
+
+                    <!-- Поле поиска -->
+                    <Border Grid.Column="1" 
+                            BorderBrush="#BDC3C7" 
+                            BorderThickness="1" 
+                            CornerRadius="4" 
+                            Background="White">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Path Data="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                                  Fill="#95A5A6"
+                                  Width="16"
+                                  Height="16"
+                                  Margin="10,0,0,0"
+                                  VerticalAlignment="Center"/>
+                            <TextBox x:Name="SearchTextBox"
+                                     Grid.Column="1"
+                                     Height="32"
+                                     BorderThickness="0"
+                                     Padding="8,5"
+                                     VerticalContentAlignment="Center"
+                                     Text="Поиск..."
+                                     Foreground="Gray"
+                                     GotFocus="SearchTextBox_GotFocus"
+                                     LostFocus="SearchTextBox_LostFocus"
+                                     TextChanged="SearchTextBox_TextChanged" 
+                                     Background="Transparent"/>
+                        </Grid>
+                    </Border>
+                </Grid>
+
+                <!-- Нижний ряд: Фильтры поиска -->
+                <StackPanel Grid.Row="1" 
+                            Orientation="Horizontal" 
+                            Margin="0,16,0,0">
+                    <TextBlock Text="Искать:" 
+                               Foreground="#34495E" 
+                               FontWeight="SemiBold" 
+                               VerticalAlignment="Center" 
+                               Margin="0,0,16,0"/>
+
+                    <RadioButton Content="По ID" 
+                                 Name="SearchByIdRadio" 
+                                 IsChecked="True" 
+                                 Style="{StaticResource RadioButtonStyle}"
+                                 Checked="SearchRadioButton_Checked"/>
+
+                    <RadioButton Content="По ID клиента" 
+                                 Name="SearchByClientIdRadio" 
+                                 Style="{StaticResource RadioButtonStyle}"
+                                 Checked="SearchRadioButton_Checked"/>
+
+                    <RadioButton Content="По описанию" 
+                                 Name="SearchByDescriptionRadio"
+                                 Style="{StaticResource RadioButtonStyle}"
+                                 Checked="SearchRadioButton_Checked"/>
+
+                    <RadioButton Content="По статусу"
+                                 Name="SearchByStatusRadio"
+                                 Style="{StaticResource RadioButtonStyle}"
+                                 Checked="SearchRadioButton_Checked"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- Таблица залогов -->
         <DataGrid Name="PledgesDataGrid"
+                  Style="{StaticResource DataGridStyle}"
                   AutoGenerateColumns="False"
                   ItemsSource="{Binding Pledges}"
                   ColumnWidth="*"
-                  HorizontalAlignment="Stretch"
-                  VerticalAlignment="Stretch"
-                  Grid.Row="2"
-                  Margin="5"
-                  CanUserAddRows="False">
+                  IsReadOnly="True"
+                  CanUserAddRows="False"
+                  CanUserDeleteRows="False"
+                  CanUserReorderColumns="True"
+                  CanUserResizeColumns="True"
+                  CanUserSortColumns="True"
+                  SelectionMode="Single"
+                  SelectionUnit="FullRow"
+                  HeadersVisibility="Column"
+                  Grid.Row="2">
+
+            <DataGrid.Resources>
+                <Style TargetType="DataGridColumnHeader" BasedOn="{StaticResource DataGridColumnHeaderStyle}"/>
+            </DataGrid.Resources>
+
             <DataGrid.Columns>
-                <DataGridTextColumn Header="ID" Binding="{Binding PledgeID}" Width="50"/>
-                <DataGridTextColumn Header="ID Клиента" Binding="{Binding ClientID}" Width="*"/>
+                <DataGridTextColumn Header="ID" Binding="{Binding PledgeID}" Width="60"/>
+                <DataGridTextColumn Header="ID Клиента" Binding="{Binding ClientID}" Width="100"/>
                 <DataGridTextColumn Header="Описание" Binding="{Binding ItemDescription}" Width="*"/>
-                <DataGridTextColumn Header="Стоимость" Binding="{Binding EstimatedValue}" Width="*"/>
-                <DataGridTextColumn Header="Статус" Binding="{Binding Status}" Width="*"/>
+                <DataGridTextColumn Header="Стоимость" Binding="{Binding EstimatedValue}" Width="120"/>
+                <DataGridTextColumn Header="Статус" Binding="{Binding Status}" Width="120"/>
+                <DataGridTemplateColumn Header="Действия" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <StackPanel Orientation="Horizontal" 
+                                            HorizontalAlignment="Center" 
+                                            VerticalAlignment="Center">
+                                    <Button Style="{StaticResource EditButtonStyle}"
+                                            Click="EditPledgeMenuItem_Click"
+                                            ToolTip="Редактировать">
+                                        <Path Data="M19.045 7.401c.378-.378.586-.88.586-1.414s-.208-1.036-.586-1.414l-1.586-1.586c-.378-.378-.88-.586-1.414-.586s-1.036.208-1.413.585L4 13.585V18h4.413L19.045 7.401zm-3-3 1.587 1.585-1.59 1.584-1.586-1.585 1.589-1.584zM6 16v-1.585l7.04-7.018 1.586 1.586L7.587 16H6z" 
+                                              Fill="White" 
+                                              Stretch="Uniform"
+                                              Width="14"
+                                              Height="14"/>
+                                    </Button>
+                                    <Button Style="{StaticResource DeleteButtonStyle}"
+                                            Click="DeletePledgeMenuItem_Click"
+                                            ToolTip="Удалить">
+                                        <Path Data="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z" 
+                                              Fill="White" 
+                                              Stretch="Uniform"
+                                              Width="14"
+                                              Height="14"/>
+                                    </Button>
+                                </StackPanel>
+                            </Grid>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
             </DataGrid.Columns>
+
             <DataGrid.ContextMenu>
                 <ContextMenu>
-                    <MenuItem Header="Редактировать" Click="EditPledgeMenuItem_Click" />
-                    <MenuItem Header="Удалить" Click="DeletePledgeMenuItem_Click" />
+                    <MenuItem Header="Редактировать" Click="EditPledgeMenuItem_Click">
+                        <MenuItem.Icon>
+                            <Path Data="M19.045 7.401c.378-.378.586-.88.586-1.414s-.208-1.036-.586-1.414l-1.586-1.586c-.378-.378-.88-.586-1.414-.586s-1.036.208-1.413.585L4 13.585V18h4.413L19.045 7.401zm-3-3 1.587 1.585-1.59 1.584-1.586-1.585 1.589-1.584zM6 16v-1.585l7.04-7.018 1.586 1.586L7.587 16H6z" 
+                                  Fill="#3498DB" 
+                                  Stretch="Uniform"
+                                  Width="14"
+                                  Height="14"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Удалить" Click="DeletePledgeMenuItem_Click">
+                        <MenuItem.Icon>
+                            <Path Data="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z" 
+                                  Fill="#E74C3C" 
+                                  Stretch="Uniform"
+                                  Width="14"
+                                  Height="14"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
                 </ContextMenu>
             </DataGrid.ContextMenu>
         </DataGrid>

@@ -57,6 +57,33 @@
                         SelectedValuePath="PledgeID"
                         Margin="0,8,0,16"/>
 
+                    <Expander Header="Информация о залоге" 
+                             Margin="0,0,0,16"
+                             IsExpanded="False"
+                             BorderBrush="#e0e0e0" 
+                             BorderThickness="1">
+                        <Grid Margin="16,8">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <TextBlock Grid.Row="0" Grid.Column="0" Text="Наименование:" Margin="0,4"/>
+                            <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding ElementName=PledgeComboBox, Path=SelectedItem.ItemDescription}" FontWeight="Medium" Margin="0,4"/>
+
+                            <TextBlock Grid.Row="1" Grid.Column="0" Text="Оценочная стоимость:" Margin="0,4"/>
+                            <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding ElementName=PledgeComboBox, Path=SelectedItem.EstimatedValue, StringFormat={}{0:N2} ₽}" FontWeight="Medium" Margin="0,4"/>
+
+                            <TextBlock Grid.Row="2" Grid.Column="0" Text="Статус:" Margin="0,4"/>
+                            <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding ElementName=PledgeComboBox, Path=SelectedItem.Status}" FontWeight="Medium" Margin="0,4"/>
+                        </Grid>
+                    </Expander>
+
                     <ComboBox
                         x:Name="EmployeeComboBox"
                         Style="{StaticResource MaterialDesignOutlinedComboBox}"
